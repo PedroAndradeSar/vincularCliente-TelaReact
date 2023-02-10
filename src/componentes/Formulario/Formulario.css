@@ -1,0 +1,75 @@
+section{
+    box-sizing: border-box;
+    width: 100%;
+    display: block;
+    padding: 10% 30% 0% 30%;
+   
+}
+.pagamentoCor {
+    box-sizing: border-box;
+    float: left;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    border: solid 1px rgb(212, 202, 202);
+    box-shadow:  10px 10px 10px  rgba(0,0,0,0.2);
+    background-color: #f7f7f7;
+    
+}
+
+.buttonEnviar{
+    border-radius: 5px;
+    background-color: #5cb85c ;
+    padding: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: #fff;
+    border-color: #3e8f3e;
+    text-align: center;
+    font-size: 13px;
+    cursor: pointer;
+    float: right ;
+    font-family: 'Calibri';
+    margin-top: 5px;
+   
+
+}
+.buttonEnviar :hover{
+    transition-duration: 180s;
+    background-color: #419641;
+    transition:0ms ;
+    cursor:pointer;
+    margin: 0.1px;
+    
+}
+.fecharTela{
+    color:red;
+    background-color: white;
+    border:none;
+    /* border-color: red; apagar */
+    float: right ;
+    font-family: 'Calibri';
+    display: block;
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.tituloPagamento{
+    border: solid 1px rgb(212, 202, 202);
+    border-radius: 5px;
+    padding: 10px;
+}
+h2{
+    border-bottom: solid 1px rgb(212, 202, 202);
+    padding-bottom: 15px;
+}
+
+.tituloPagamento form label{
+    font-size: 12px;
+
+}
+.tituloPagamento form ::placeholder{
+    font-size: 11.5px;
+    display: center;
+}
